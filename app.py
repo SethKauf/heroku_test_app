@@ -34,7 +34,7 @@ def predict():
         # Take the first value of prediction
         output = prediction[0]
 
-        return render_template("results.html", output=output, exp=data)
+        return render_template("result.html", output=output, exp=data)
 
 if __name__ == '__main__':
     app.run(debug=True)
